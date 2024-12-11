@@ -33,7 +33,7 @@ function openPack(){
             num=randomNumber(17,102);
         }
         // gave src to each card
-        cardImg.src="pockemon-cards/base set (" +num.toString()+ ").jpg";
+        cardImg.src="base set (" +num.toString()+ ").jpg";
         // appended the img into the div
         cardDiv.appendChild(cardImg);
         // appended the div inside the main div
