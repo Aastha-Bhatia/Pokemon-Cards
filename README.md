@@ -37,6 +37,38 @@ This project was created as part of my learning journey in **DOM manipulation** 
 Clone the repository and enjoy the showcase on your local machine:
 
 ```bash
-git clone https://github.com/your-username/pokemon-card-showcase.git
-cd pokemon-card-showcase
+git clone https://github.com/Aastha-Bhatia/Pokemon-Cards.git
+cd Pokemon-Cards
 open index.html
+```
+
+📝 **Contributing**:
+
+We welcome contributions from fellow developers and Pokémon fans! If you'd like to improve the project, fix bugs, or suggest new features, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-name`).
+6. Open a pull request.
+
+📜 **License**:
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+🚀 **Future Scope**:
+
+Here are some exciting features and enhancements that could be added in the future:
+
+1. **More Pokémon Cards**: Expand the collection to include additional Pokémon cards from different generations.
+2. **Interactive Gameplay**: Allow users to "collect" cards and interact with the showcase.
+3. **Card Information**: Add detailed information about each Pokémon card, such as stats, abilities, and history.
+4. **Improved Animations**: Incorporate advanced animations for a more immersive experience.
+5. **User Authentication**: Allow users to sign up and create a collection of Pokémon cards.
+
+🔧 **Tech Improvements**:
+
+- Refactor the project to use **React** or **Vue.js** for more efficient state management.
+- Implement **local storage** to allow users to save their card collections.
+
