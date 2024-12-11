@@ -1,0 +1,52 @@
+body{
+    /* somehow, the images here are considered as a text only so it automatically aligns them to the center */
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.058), rgba(255, 255, 255, 0.244)), url('https://images7.alphacoders.com/592/592678.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgb(255,205,13);
+    font-size: 3.5rem;
+    letter-spacing: 8px;
+    line-height: 1.2; 
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-shadow: 
+    8px 8px 0px #3161A3, /* Blue outline shadow (top-left) */
+        -8px -8px 0px #3161A3, /* Blue outline shadow (bottom-right) */
+        8px -8px 0px #3161A3, /* Blue outline shadow (top-right) */
+        -8px 8px 0px #3161A3, /* Blue outline shadow (bottom-left) */
+        0px 0px 40px #3161A3, /* Glow effect */
+        0px 0px 15px #3161A3;  /* Outer glow effect */
+}
+.heading h4{
+    font-family: 'Pokemon Solid', sans-serif; /* Same font as heading */
+    color: rgb(255,205,13); /* Same color as heading */
+    letter-spacing: 5px;
+    line-height: 1; 
+    text-shadow: 
+    3px 3px 0px #3161A3, 
+    -3px -3px 0px #3161A3, 
+    3px -3px 0px #3161A3, 
+    -3px 3px 0px #3161A3, 
+    0px 0px 10px #3161A3, 
+    0px 0px 5px #3161A3; 
+    font-size: 1.2rem; 
+    margin-bottom: 15px;
+}
+
+.pockemon-card img{
+    margin-top: 10px;
+    width:300px;
+    height: 412px;
+}
+
